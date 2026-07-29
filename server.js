@@ -8,7 +8,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: "https://starreview-frontend.vercel.app/", // change to your frontend URL after hosting
+  origin: "https://starreview-frontend.vercel.app", // change to your frontend URL after hosting
 }));
 
 // Route
